@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/navigation">
+
+    <group android:id="@+id/grupoIngres" android:visible="true">
+
+        <item
+            android:icon="@drawable/lock"
+            android:title="Ingresar" />
+
+
+    </group>
+
+
+    <group android:id="@+id/grupoTest" android:checkableBehavior="single" android:visible="false">
+
+        <item
+            android:id="@+id/test1"
+            android:checked="false"
+            android:icon="@drawable/bookmark"
+            android:title="Ansiedad" />
+
+        <item
+            android:id="@+id/test2"
+            android:checked="false"
+            android:icon="@drawable/bookmark"
+            android:title="Depresion" />
+
+        <item
+            android:id="@+id/test3"
+            android:checked="false"
+            android:icon="@drawable/bookmark"
+            android:title="Estres" />
+
+
+
+    </group>
+
+    <group android:id="@+id/grupoMail" android:visible="false">
+        <item
+            android:id="@+id/email"
+            android:icon="@drawable/mail"
+            android:title="Enviar resultados"/>
+
+    </group>
+
+
+</menu>
